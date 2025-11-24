@@ -473,3 +473,6 @@ footer .copyright {
   background-color: teal;
   padding: 10px;
 }
+body, html {
+  overflow-x: hidden;
+}
