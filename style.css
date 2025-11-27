@@ -102,8 +102,7 @@ body {
   width: 100%;
   min-height: 70vh;
   background-size: contain;       /* ADD */
-  background-repeat: no-repeat;
-  background-position: center ;  /* CHANGE */
+  background-repeat: no-repeat;  /* CHANGE */
   background-attachment: fixed;
   padding: 20px;
   display: flex;
