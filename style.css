@@ -103,7 +103,7 @@ body {
   min-height: 70vh;
   background-size: contain;       /* ADD */
   background-repeat: no-repeat; 
-  background-allignment: center;/* CHANGE */
+  background-position: center;/* CHANGE */
   padding: 20px;
   display: flex;
   flex-direction: column;
