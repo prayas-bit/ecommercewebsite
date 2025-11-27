@@ -98,12 +98,16 @@ body {
 .hero {
   background-image: url("img/hero.png");
   background-color: teal;
+  height: 90vh;
   height: auto;
   width: 100%;
+  background-size: cover;       /* ADD */
   min-height: 70vh;
   background-size: contain;       /* ADD */
-  background-repeat: no-repeat; 
-  background-position: center;/* CHANGE */
+  background-repeat: no-repeat;
+  background-position: center right;  /* CHANGE */
+  padding: 0 80px;
+  background-position: center ;  /* CHANGE */
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -112,7 +116,7 @@ body {
 }
 
 .hero h4 {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 .hero h1 {
   color: whitesmoke;
@@ -138,11 +142,13 @@ body {
 }
 @media (max-width: 600px) {
   .hero {
+    min-height: 50vh;
     background-size: contain;
     background-position: center top;
-    padding: 20px;
+    padding: 20px 15px;
   }
 }
+
 
 /* Features */
 #feature {
