@@ -98,6 +98,7 @@ body {
 .hero {
   background-image: url("img/hero.png");
   background-color: teal;
+  min-height: 100vh;
   height: auto;
   width: 100%;
   min-height: 70vh;
@@ -109,6 +110,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+}
+.hero img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .hero h4 {
