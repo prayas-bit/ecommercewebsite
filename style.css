@@ -104,7 +104,6 @@ body {
   background-size: contain;       /* ADD */
   background-repeat: no-repeat; 
   background-allignment: center;/* CHANGE */
-  background-attachment: fixed;
   padding: 20px;
   display: flex;
   flex-direction: column;
