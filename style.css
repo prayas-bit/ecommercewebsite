@@ -142,13 +142,16 @@ body {
   cursor: pointer;
   background-color: rgb(29, 156, 156);
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .hero {
-    min-height: 50vh;
+    min-height: auto;
     background-size: contain;
     background-position: center top;
-    padding: 20px 15px;
+    padding: 20px;
   }
+  .hero img{
+    width: 100%;
+    height: auto;
 }
 
 
